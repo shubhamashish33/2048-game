@@ -54,6 +54,10 @@ body {
   transition: 100ms ease-in-out;
 }
 
+.warning{
+    display: none;
+}
+
 @keyframes show{
     0%{
         opacity: .5;
