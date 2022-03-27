@@ -60,3 +60,17 @@ body {
         transform: scale(0);
     }
 }
+
+@media screen and (max-width: 1100px){
+#game-board{
+    display: none;
+}
+body{
+    background-color: #ccc;
+}
+.warning{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+}
